@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tests_app/pages/multi_selection.dart';
+import 'package:tests_app/pages/home_page.dart';
 
 // url de imagen :
 //https://images.unsplash.com/photo-1636622697498-8f60b9226824
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MultiSelectionPage(),
+      home: HomePage(),
     );
   }
 } 
